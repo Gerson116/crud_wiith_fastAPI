@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS files
+.DS_Store
+
+# Python-specific
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+
+# Testing results
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# dotenv
+.env
+.env.*
+
+# Logs
+*.log
+
+# FastAPI specific
+*.db
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yml
+
+# Ignore editor swap files
+*.swp
+
+# Ignore lock files
+poetry.lock
+Pipfile.lock
+
+# Ignore node_modules
+node_modules/
+
+# Ignore Sphinx build files
+/docs/_build/
+
+# Ignore migrations
+migrations/
